@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="cypher-ast-factory,cypher-it,cypher-parent,neo4j-ast,neo4j-codegen,neo4j-cypher,neo4j-cypher-acceptance-spec-suite,neo4j-cypher-ast-factory,neo4j-cypher-compatibility-spec-suite,neo4j-cypher-expression-evaluator,neo4j-cypher-interpreted-runtime,neo4j-cypher-ir,neo4j-cypher-javacc-parser,neo4j-cypher-logical-plan-builder,neo4j-cypher-logical-plan-generator,neo4j-cypher-logical-plans,neo4j-cypher-macros,neo4j-cypher-planner,neo4j-cypher-planner-spi,neo4j-cypher-runtime-spec-suite,neo4j-cypher-runtime-util,neo4j-cypher-spec-suite-tools,neo4j-data-collector,neo4j-expressions,neo4j-fabric,neo4j-front-end,neo4j-front-end-parent,neo4j-parser,neo4j-rewriting,neo4j-util">
+      <parameters>
+        <parameter value="-Xmax-classfile-name" />
+        <parameter value="100" />
+        <parameter value="-Xlint" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-nobootcp" />
+      </parameters>
+    </profile>
+  </component>
+</project>

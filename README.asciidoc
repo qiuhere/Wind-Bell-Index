@@ -1,0 +1,98 @@
+The Wind-Bell Index is implemented in the code of Neo4j, and can be test in the classes in folder TestingAPI. 
+
+To test the Wind-Bell:
+First you should compile the code to build a Neo4j with Wind-Bell.
+Here is the simple command for compiling:
+
+  mvn clean install -DskipTests -Dlicense.skip=true -Doverwrite
+
+Second, after compiling the Neo4j with Wind-Bell, you need to build up the environment following the full usage of Neo4j. 
+The full usage of Neo4j will be shown below.
+
+Third, you should check the code in TestingAPI, and set the path of Neo4j and the database yourself. You should also choose the dataset you use, and modify the reading of dataset in the code.(The dataset we use is too large for github) 
+After the setting, you can compile the classes and run.
+
+InsertingByJava.java is the class to insert data into Neo4j, which should be run first.
+
+Querying.java is to query how many edges with the same pair <u,v> are in the graph. 
+
+Triangle.java is to find out is there a triangle in the pair <u,v,w>.
+
+LookingSketch.java is to check the Wind-Bell without accessing Neo4j, providing data like the loading rate, longest length, average length and so on.
+
+= Neo4j: Graphs for Everyone =
+
+https://neo4j.com[Neo4j] is the world's leading Graph Database. It is a high performance graph store with all the features expected of a mature and robust database, like a friendly query language and ACID transactions. The programmer works with a flexible network structure of nodes and relationships rather than static tables -- yet enjoys all the benefits of enterprise-quality database. For many applications, Neo4j offers orders of magnitude performance benefits compared to relational DBs.
+
+Learn more on the https://neo4j.com[Neo4j website].
+
+== Using Neo4j ==
+
+Neo4j is available both as a standalone server, or an embeddable component. You can https://neo4j.com/download/[download] or https://neo4j.com/sandbox/[try online].
+
+== Extending Neo4j ==
+
+We encourage experimentation with Neo4j. You can build extensions to Neo4j, develop library or drivers atop the product, or make contributions directly to the product core. You'll need to sign a Contributor License Agreement in order for us to accept your patches.
+
+== Dependencies ==
+
+Neo4j is built using https://maven.apache.org/[Apache Maven] version 3.5.4 and a recent version of supported VM. Bash and Make are also required. Note that maven needs more memory than the standard configuration, this can be achieved with `export MAVEN_OPTS="-Xmx512m"`.
+
+macOS users need to have https://brew.sh/[Homebrew] installed.
+
+=== With brew on macOS ===
+
+  brew install maven
+
+Please note that we do not support building Debian packages on macOS.
+
+=== With apt-get on Ubuntu ===
+
+  sudo apt install maven openjdk-11-jdk
+
+On top of that, to build Debian packages and Neo4j Desktop:
+
+  apt install debhelper devscripts dos2unix dpkg make xmlstarlet
+  # You will need a license for install4j, which is only needed for Neo4j Desktop
+  curl -O https://download-keycdn.ej-technologies.com/install4j/install4j_linux_6_1_4.deb
+  dpkg -i install4j_linux_6_1_4.deb
+
+== Building Neo4j ==
+
+Before you start running the unit and integration tests in the Neo4j Maven project on a Linux-like system, you should ensure your limit on open files is set to a reasonable value. You can test it with `ulimit -n`. We recommend you have a limit of at least 40K.
+
+* A plain `mvn clean install` will only build the individual jar files.
+* Test execution is, of course, part of the build.
+* In case you just want the jars, without running tests, this is for you: `mvn clean install -DskipTests`.
+* To build product packages, do `export PATH="bin:$PATH" && make clean all` in the packaging directory after building artifacts with Maven.
+* To build the documentation see the https://github.com/neo4j/neo4j-documentation/[Neo4j documentation].
+* If you are running into problems building on Windows you can try building Neo4j in a Ubuntu virtual machine.
+* You may need to increase the memory available to Maven: `export MAVEN_OPTS="-Xmx512m"`.
+
+== Running Neo4j ==
+
+After running a `mvn clean install`, `cd` into `packaging/standalone/target` and extract the version you want, then:
+
+  bin/neo4j start
+
+in the extracted folder to start Neo4j on `localhost:7474`. On Windows you want to run:
+
+  bin\neo4j start
+
+instead.
+
+== Neo4j Desktop ==
+
+Neo4j Desktop is a convenient way for developers to work with local Neo4j databases.
+
+To install Neo4j Desktop, go to https://neo4j.com/download-center/[Neo4j Download Center] and follow the instructions. 
+
+== Licensing ==
+
+Neo4j Community Edition is an open source product licensed under GPLv3.
+
+Neo4j Enterprise Edition includes additional closed-source components _not available in this repository_ and requires a commercial license from Neo4j or one of its affiliates.
+
+== Trademark ==
+
+Neo4j's trademark policy is available at https://neo4j.com/trademark-policy/[our trademark policy page].

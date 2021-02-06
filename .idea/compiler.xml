@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="neo4j-front-end" />
+        <module name="neo4j-harness" />
+        <module name="neo4j-random-values" />
+        <module name="neo4j-rewriting" />
+        <module name="neo4j-dbms" />
+        <module name="neo4j-data-collector" />
+        <module name="neo4j-cypher-runtime-util" />
+        <module name="neo4j-cypher-logical-plan-builder" />
+        <module name="neo4j-configuration" />
+        <module name="neo4j-cypher-expression-evaluator" />
+        <module name="neo4j-cypher-interpreted-runtime" />
+        <module name="neo4j-schema" />
+        <module name="neo4j-cypher-planner-spi" />
+        <module name="neo4j-cypher-acceptance-spec-suite" />
+        <module name="neo4j-bolt" />
+        <module name="neo4j-label-index" />
+        <module name="batch-insert-it" />
+        <module name="neo4j-collections" />
+        <module name="build-resources" />
+        <module name="server-api" />
+        <module name="neo4j-spatial-index" />
+        <module name="neo4j-lock" />
+        <module name="neo4j-graphdb-api" />
+        <module name="neo4j-resource" />
+        <module name="neo4j-kernel-api" />
+        <module name="neo4j-cypher" />
+        <module name="neo4j-batch-insert" />
+        <module name="wal-test-utils" />
+        <module name="neo4j-cypher-spec-suite-tools" />
+        <module name="neo4j-wal" />
+        <module name="neo4j-procedure" />
+        <module name="neo4j-graph-algo" />
+        <module name="bolt-it" />
+        <module name="it-test-support" />
+        <module name="neo4j-security" />
+        <module name="index-it" />
+        <module name="neo4j-index" />
+        <module name="neo4j-expressions" />
+        <module name="neo4j-monitoring" />
+        <module name="community-it" />
+        <module name="consistency-it" />
+        <module name="neo4j-io" />
+        <module name="neo4j-token-api" />
+        <module name="neo4j-ssl" />
+        <module name="log-test-utils" />
+        <module name="zstd-proxy" />
+        <module name="algo-it" />
+        <module name="neo4j-util" />
+        <module name="neo4j-cypher-compatibility-spec-suite" />
+        <module name="neo4j-storage-engine-api" />
+        <module name="neo4j-ast" />
+        <module name="layout-test-utils" />
+        <module name="neo4j-import-util" />
+        <module name="neo4j-parser" />
+        <module name="cypher-ast-factory" />
+        <module name="neo4j-layout" />
+        <module name="neo4j-values" />
+        <module name="neo4j-common" />
+        <module name="kernel-it" />
+        <module name="neo4j" />
+        <module name="neo4j-cypher-ast-factory" />
+        <module name="neo4j-cypher-planner" />
+        <module name="neo4j-cypher-logical-plan-generator" />
+        <module name="neo4j-procedure-api" />
+        <module name="import-test-utils" />
+        <module name="neo4j-import-tool" />
+        <module name="neo4j-lucene-index" />
+        <module name="neo4j-fulltext-index" />
+        <module name="neo4j-cypher-javacc-parser" />
+        <module name="neo4j-fabric" />
+        <module name="neo4j-cypher-ir" />
+        <module name="neo4j-logging" />
+        <module name="storage-engine-test-utils" />
+        <module name="dbms-it" />
+        <module name="import-it" />
+        <module name="neo4j-csv" />
+        <module name="neo4j-exceptions" />
+        <module name="neo4j-native" />
+        <module name="record-storage-engine-it" />
+        <module name="neo4j-record-storage-engine" />
+        <module name="neo4j-diagnostics" />
+        <module name="neo4j-kernel" />
+        <module name="neo4j-cypher-runtime-spec-suite" />
+        <module name="neo4j-cypher-logical-plans" />
+        <module name="neo4j-id-generator" />
+        <module name="neo4j-codegen" />
+        <module name="procedure-compiler-integration-tests" />
+        <module name="neo4j-consistency-check" />
+        <module name="cypher-it" />
+        <module name="neo4j-cypher-macros" />
+        <module name="test-utils" />
+        <module name="neo4j-server" />
+        <module name="io-test-utils" />
+        <module name="kernel-api-test-utils" />
+        <module name="neo4j-concurrent" />
+        <module name="neo4j-push-to-cloud" />
+        <module name="neo4j-unsafe" />
+        <module name="neo4j-command-line" />
+      </profile>
+      <profile name="Annotation profile for Neo4j" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <module name="procedure-compiler" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="algo-it" target="11" />
+      <module name="annotations" target="11" />
+      <module name="batch-insert-it" target="11" />
+      <module name="bolt-it" target="11" />
+      <module name="build-resources" target="1.5" />
+      <module name="community-build" target="11" />
+      <module name="community-integration-tests" target="11" />
+      <module name="community-it" target="11" />
+      <module name="consistency-it" target="11" />
+      <module name="cypher-ast-factory" target="11" />
+      <module name="cypher-it" target="11" />
+      <module name="cypher-parent" target="11" />
+      <module name="dbms-it" target="11" />
+      <module name="import-it" target="11" />
+      <module name="import-test-utils" target="11" />
+      <module name="index-it" target="11" />
+      <module name="io-test-utils" target="11" />
+      <module name="it-test-support" target="11" />
+      <module name="kernel-api-test-utils" target="11" />
+      <module name="kernel-it" target="11" />
+      <module name="layout-test-utils" target="11" />
+      <module name="log-test-utils" target="11" />
+      <module name="neo4j" target="11" />
+      <module name="neo4j-ast" target="11" />
+      <module name="neo4j-batch-insert" target="11" />
+      <module name="neo4j-bolt" target="11" />
+      <module name="neo4j-codegen" target="11" />
+      <module name="neo4j-collections" target="11" />
+      <module name="neo4j-command-line" target="11" />
+      <module name="neo4j-common" target="11" />
+      <module name="neo4j-community" target="11" />
+      <module name="neo4j-community-standalone" target="11" />
+      <module name="neo4j-concurrent" target="11" />
+      <module name="neo4j-configuration" target="11" />
+      <module name="neo4j-consistency-check" target="11" />
+      <module name="neo4j-csv" target="11" />
+      <module name="neo4j-cypher" target="11" />
+      <module name="neo4j-cypher-acceptance-spec-suite" target="11" />
+      <module name="neo4j-cypher-ast-factory" target="11" />
+      <module name="neo4j-cypher-compatibility-spec-suite" target="11" />
+      <module name="neo4j-cypher-expression-evaluator" target="11" />
+      <module name="neo4j-cypher-interpreted-runtime" target="11" />
+      <module name="neo4j-cypher-ir" target="11" />
+      <module name="neo4j-cypher-javacc-parser" target="11" />
+      <module name="neo4j-cypher-logical-plan-builder" target="11" />
+      <module name="neo4j-cypher-logical-plan-generator" target="11" />
+      <module name="neo4j-cypher-logical-plans" target="11" />
+      <module name="neo4j-cypher-macros" target="11" />
+      <module name="neo4j-cypher-planner" target="11" />
+      <module name="neo4j-cypher-planner-spi" target="11" />
+      <module name="neo4j-cypher-runtime-spec-suite" target="11" />
+      <module name="neo4j-cypher-runtime-util" target="11" />
+      <module name="neo4j-cypher-spec-suite-tools" target="11" />
+      <module name="neo4j-data-collector" target="11" />
+      <module name="neo4j-dbms" target="11" />
+      <module name="neo4j-diagnostics" target="11" />
+      <module name="neo4j-exceptions" target="11" />
+      <module name="neo4j-expressions" target="11" />
+      <module name="neo4j-fabric" target="11" />
+      <module name="neo4j-front-end" target="11" />
+      <module name="neo4j-front-end-parent" target="11" />
+      <module name="neo4j-fulltext-index" target="11" />
+      <module name="neo4j-graph-algo" target="11" />
+      <module name="neo4j-graphdb-api" target="11" />
+      <module name="neo4j-harness" target="11" />
+      <module name="neo4j-id-generator" target="11" />
+      <module name="neo4j-import-tool" target="11" />
+      <module name="neo4j-import-util" target="11" />
+      <module name="neo4j-index" target="11" />
+      <module name="neo4j-io" target="11" />
+      <module name="neo4j-kernel" target="11" />
+      <module name="neo4j-kernel-api" target="11" />
+      <module name="neo4j-label-index" target="11" />
+      <module name="neo4j-layout" target="11" />
+      <module name="neo4j-lock" target="11" />
+      <module name="neo4j-logging" target="11" />
+      <module name="neo4j-lucene-index" target="11" />
+      <module name="neo4j-monitoring" target="11" />
+      <module name="neo4j-native" target="11" />
+      <module name="neo4j-parser" target="11" />
+      <module name="neo4j-procedure" target="11" />
+      <module name="neo4j-procedure-api" target="11" />
+      <module name="neo4j-push-to-cloud" target="11" />
+      <module name="neo4j-random-values" target="11" />
+      <module name="neo4j-record-storage-engine" target="11" />
+      <module name="neo4j-resource" target="11" />
+      <module name="neo4j-rewriting" target="11" />
+      <module name="neo4j-schema" target="11" />
+      <module name="neo4j-security" target="11" />
+      <module name="neo4j-server" target="11" />
+      <module name="neo4j-spatial-index" target="11" />
+      <module name="neo4j-ssl" target="11" />
+      <module name="neo4j-standalone" target="11" />
+      <module name="neo4j-storage-engine-api" target="11" />
+      <module name="neo4j-token-api" target="11" />
+      <module name="neo4j-unsafe" target="11" />
+      <module name="neo4j-util" target="11" />
+      <module name="neo4j-values" target="11" />
+      <module name="neo4j-wal" target="11" />
+      <module name="packaging-build" target="11" />
+      <module name="parent" target="11" />
+      <module name="procedure-compiler" target="11" />
+      <module name="procedure-compiler-integration-tests" target="11" />
+      <module name="procedure-compiler-parent" target="11" />
+      <module name="record-storage-engine-it" target="11" />
+      <module name="server-api" target="11" />
+      <module name="storage-engine-test-utils" target="11" />
+      <module name="test-utils" target="11" />
+      <module name="testing-parent" target="11" />
+      <module name="wal-test-utils" target="11" />
+      <module name="zstd-proxy" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="algo-it" options="-Xpkginfo:always" />
+      <module name="annotations" options="-proc:none --add-exports jdk.javadoc/jdk.javadoc.internal.tool=ALL-UNNAMED -Xpkginfo:always" />
+      <module name="batch-insert-it" options="-Xpkginfo:always" />
+      <module name="bolt-it" options="-Xpkginfo:always" />
+      <module name="community-it" options="-Xpkginfo:always" />
+      <module name="consistency-it" options="-Xpkginfo:always" />
+      <module name="cypher-ast-factory" options="-Xpkginfo:always" />
+      <module name="cypher-it" options="-Xpkginfo:always" />
+      <module name="dbms-it" options="-Xpkginfo:always" />
+      <module name="import-it" options="-Xpkginfo:always" />
+      <module name="import-test-utils" options="-Xpkginfo:always" />
+      <module name="index-it" options="-Xpkginfo:always" />
+      <module name="io-test-utils" options="-Xpkginfo:always" />
+      <module name="it-test-support" options="-Xpkginfo:always" />
+      <module name="kernel-api-test-utils" options="-Xpkginfo:always" />
+      <module name="kernel-it" options="-Xpkginfo:always" />
+      <module name="layout-test-utils" options="-Xpkginfo:always" />
+      <module name="log-test-utils" options="-Xpkginfo:always" />
+      <module name="neo4j" options="-Xpkginfo:always" />
+      <module name="neo4j-ast" options="-Xpkginfo:always" />
+      <module name="neo4j-batch-insert" options="-Xpkginfo:always" />
+      <module name="neo4j-bolt" options="-Xpkginfo:always" />
+      <module name="neo4j-codegen" options="-Xpkginfo:always" />
+      <module name="neo4j-collections" options="-Xpkginfo:always" />
+      <module name="neo4j-command-line" options="-Xpkginfo:always" />
+      <module name="neo4j-common" options="-Xpkginfo:always" />
+      <module name="neo4j-concurrent" options="-Xpkginfo:always" />
+      <module name="neo4j-configuration" options="-Xpkginfo:always" />
+      <module name="neo4j-consistency-check" options="-Xpkginfo:always" />
+      <module name="neo4j-csv" options="-Xpkginfo:always" />
+      <module name="neo4j-cypher" options="-Xpkginfo:always" />
+      <module name="neo4j-cypher-acceptance-spec-suite" options="-Xpkginfo:always" />
+      <module name="neo4j-cypher-ast-factory" options="-Xpkginfo:always" />
+      <module name="neo4j-cypher-compatibility-spec-suite" options="-Xpkginfo:always" />
+      <module name="neo4j-cypher-expression-evaluator" options="-Xpkginfo:always" />
+      <module name="neo4j-cypher-interpreted-runtime" options="-Xpkginfo:always" />
+      <module name="neo4j-cypher-ir" options="-Xpkginfo:always" />
+      <module name="neo4j-cypher-javacc-parser" options="-Xpkginfo:always" />
+      <module name="neo4j-cypher-logical-plan-builder" options="-Xpkginfo:always" />
+      <module name="neo4j-cypher-logical-plan-generator" options="-Xpkginfo:always" />
+      <module name="neo4j-cypher-logical-plans" options="-Xpkginfo:always" />
+      <module name="neo4j-cypher-macros" options="-Xpkginfo:always" />
+      <module name="neo4j-cypher-planner" options="-Xpkginfo:always" />
+      <module name="neo4j-cypher-planner-spi" options="-Xpkginfo:always" />
+      <module name="neo4j-cypher-runtime-spec-suite" options="-Xpkginfo:always" />
+      <module name="neo4j-cypher-runtime-util" options="-Xpkginfo:always" />
+      <module name="neo4j-cypher-spec-suite-tools" options="-Xpkginfo:always" />
+      <module name="neo4j-data-collector" options="-Xpkginfo:always" />
+      <module name="neo4j-dbms" options="-Xpkginfo:always" />
+      <module name="neo4j-diagnostics" options="-Xpkginfo:always" />
+      <module name="neo4j-exceptions" options="-Xpkginfo:always" />
+      <module name="neo4j-expressions" options="-Xpkginfo:always" />
+      <module name="neo4j-fabric" options="-Xpkginfo:always" />
+      <module name="neo4j-front-end" options="-Xpkginfo:always" />
+      <module name="neo4j-fulltext-index" options="-Xpkginfo:always" />
+      <module name="neo4j-graph-algo" options="-Xpkginfo:always" />
+      <module name="neo4j-graphdb-api" options="-Xpkginfo:always" />
+      <module name="neo4j-harness" options="-Xpkginfo:always" />
+      <module name="neo4j-id-generator" options="-Xpkginfo:always" />
+      <module name="neo4j-import-tool" options="-Xpkginfo:always" />
+      <module name="neo4j-import-util" options="-Xpkginfo:always" />
+      <module name="neo4j-index" options="-Xpkginfo:always" />
+      <module name="neo4j-io" options="-Xpkginfo:always" />
+      <module name="neo4j-kernel" options="-Xpkginfo:always" />
+      <module name="neo4j-kernel-api" options="-Xpkginfo:always" />
+      <module name="neo4j-label-index" options="-Xpkginfo:always" />
+      <module name="neo4j-layout" options="-Xpkginfo:always" />
+      <module name="neo4j-lock" options="-Xpkginfo:always" />
+      <module name="neo4j-logging" options="-Xpkginfo:always" />
+      <module name="neo4j-lucene-index" options="-Xpkginfo:always" />
+      <module name="neo4j-monitoring" options="-Xpkginfo:always" />
+      <module name="neo4j-native" options="-Xpkginfo:always" />
+      <module name="neo4j-parser" options="-Xpkginfo:always" />
+      <module name="neo4j-procedure" options="-Xpkginfo:always" />
+      <module name="neo4j-procedure-api" options="-Xpkginfo:always" />
+      <module name="neo4j-push-to-cloud" options="-Xpkginfo:always" />
+      <module name="neo4j-random-values" options="-Xpkginfo:always" />
+      <module name="neo4j-record-storage-engine" options="-Xpkginfo:always" />
+      <module name="neo4j-resource" options="-Xpkginfo:always" />
+      <module name="neo4j-rewriting" options="-Xpkginfo:always" />
+      <module name="neo4j-schema" options="-Xpkginfo:always" />
+      <module name="neo4j-security" options="-Xpkginfo:always" />
+      <module name="neo4j-server" options="-Xpkginfo:always" />
+      <module name="neo4j-spatial-index" options="-Xpkginfo:always" />
+      <module name="neo4j-ssl" options="-Xpkginfo:always" />
+      <module name="neo4j-storage-engine-api" options="-Xpkginfo:always" />
+      <module name="neo4j-token-api" options="-Xpkginfo:always" />
+      <module name="neo4j-unsafe" options="-Xpkginfo:always" />
+      <module name="neo4j-util" options="-Xpkginfo:always" />
+      <module name="neo4j-values" options="-Xpkginfo:always" />
+      <module name="neo4j-wal" options="-Xpkginfo:always" />
+      <module name="procedure-compiler" options="-Xpkginfo:always" />
+      <module name="procedure-compiler-integration-tests" options="-Xpkginfo:always" />
+      <module name="record-storage-engine-it" options="-Xpkginfo:always" />
+      <module name="server-api" options="-Xpkginfo:always" />
+      <module name="storage-engine-test-utils" options="-Xpkginfo:always" />
+      <module name="test-utils" options="-Xpkginfo:always" />
+      <module name="wal-test-utils" options="-Xpkginfo:always" />
+      <module name="zstd-proxy" options="-Xpkginfo:always" />
+    </option>
+  </component>
+</project>
