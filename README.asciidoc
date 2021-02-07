@@ -1,3 +1,4 @@
+= Wind-Bell Index =
 The Wind-Bell Index is implemented in the code of Neo4j, and can be test in the classes in folder TestingAPI. 
 
 To test the Wind-Bell:
@@ -11,7 +12,7 @@ The full usage of Neo4j will be shown below.
 
 Third, you should check the code in TestingAPI, and set the path of Neo4j and the database yourself. 
 You should also choose the dataset you use, and modify the reading of dataset in the code.
-The dataset we use in the experiments is too large for github, we will put it on onedrive:??
+We provide a dataset zipped in /TestingAPI/, namely 20.dat.
 After the setting, you can compile the classes and run.
 
 InsertingByJava.java is the class to insert data into Neo4j, which should be run first.
