@@ -9,7 +9,9 @@ Here is the simple command for compiling:
 Second, after compiling the Neo4j with Wind-Bell, you need to build up the environment following the full usage of Neo4j. 
 The full usage of Neo4j will be shown below.
 
-Third, you should check the code in TestingAPI, and set the path of Neo4j and the database yourself. You should also choose the dataset you use, and modify the reading of dataset in the code.(The dataset we use is too large for github, we will put it on onedrive:??) 
+Third, you should check the code in TestingAPI, and set the path of Neo4j and the database yourself. 
+You should also choose the dataset you use, and modify the reading of dataset in the code.
+The dataset we use in the experiments is too large for github, we will put it on onedrive:??
 After the setting, you can compile the classes and run.
 
 InsertingByJava.java is the class to insert data into Neo4j, which should be run first.
